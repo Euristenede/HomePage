@@ -1,0 +1,57 @@
+/*========================== layout ===========================*/
+html, body{
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(248, 248, 255);
+}
+
+#quemSouEu{
+	margin-top: 70px;
+}
+
+#minhaFormacao{
+	margin-top: 30px;
+}
+
+#quemSouEu p{
+	text-align: justify;
+}
+
+.box{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+#TIF{
+	background: rgb(211, 211, 211);
+}
+
+#TIF h3{
+	text-align: center;
+}
+
+#BCC {
+	background: rgb(211, 211, 211);
+	margin-left: 1px;
+	margin-right: -1px;
+}
+
+#BCC h3{
+	text-align: center;
+}
+
+/*-- rodape --*/
+footer{
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.item-rede-social{
+	float: right;
+}
